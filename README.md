@@ -1,13 +1,13 @@
-# Crazy_Snake
+# :snake:Crazy_Snake
  Crazy_Snake game is text base game made by C++
- Contributed by __*Huang xinghai*__ and __*Wong wai chun*__
+ Contributed by 👨__*Huang xinghai*__ and 🧑__*Wong wai chun*__
 
 ## Game Description
  
 
-## Game features
+## :dragon_face:Game features
  //What feather about this game, how this different to other snake?
- //Obtacle(Different type of obtacle)/Food
+ //Obtacle(Different type of obtacle)/Food🍉🍋
  
  pause game
  load game
@@ -19,12 +19,12 @@
  set speed of snake
  set the different
  
-## Introduce the game rules
+## :seedling:Introduce the game rules
  //How to play:
  //How to win:
  //How to score
 
-## Project Requirements
+## :man_factory_worker:Project Requirements
 #include <conio.h> //For sleep() time delay for making animation
 #include <windows.h> //Detected user key press event
 //Coding elements
@@ -37,9 +37,9 @@
   Proper indentation and naming styles
   In-code documentation
   
-## Technique involved
+## :detective:Technique involved
 //How to implement an animation in console
 
-## Game flow
+## :man_in_tuxedo:Game flow
 //Input then what happened?
   
