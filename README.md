@@ -17,18 +17,17 @@
  //Output input - >Can save game
  //Random event
  //Data structure for storing game-> 1D Array store for each the tail location/food/toxic food/obstacle
- //Program code seperate to multi-file 
+ //Program code seperate to multi-files
+ //pause game
+ //load game
+ //start game
+ //exit game(save game)
+// press key to open menu while gaming
+/// setting
+ //set speed of snake
+ //set the different
  
- 
- pause game
- load game
- start game
- exit game(save game)
- press key to open menu while gaming
- 
- setting
- set speed of snake
- set the different
+# My part was done la and i need to have work tonight, cant do with the remain part,
  
 ## :seedling:Introduce the game rules (by Huang xinghai)
 1. These are some stuff will see while the game
@@ -47,9 +46,13 @@
 14. 4. 3. Toxic food
 15. 4. 4. 1. Reduced score by 5
 
+Snake eat different stuff will gain the score or change the states in the game.
+Player should avoid collide with the fatal obstacle event the hard obstacle and toxic food, it will 
+lose the game or deduce the score.
+
 #####   
 How to win the game
-1. If the player attain the score 300, then win the game
+1. If the player attain the score 300 and 15 length tail, then win the game
 2. It can be continue to the game to break the records if player won the game
 3. If the player collide with fatal obstacle, then lose the game
 
