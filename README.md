@@ -14,26 +14,31 @@
 
 ## :dragon_face:Game features (By Wong wai chun)
  
+ ### Gameplay
+  Using the arrow keys (:arrow_up: :arrow_down: :arrow_left: :arrow_right:) on the keyboard to control the movement of the snake.
+ ### Foods and Obstacles
+  The following types of foods and obstacles will be appeared in **Crazy Snake**:  
+  * Normal food
+  * Toxic food
+  * Hard obstacle
+  * Soft obstacle
+  * Fatal obstacle  
+  
+  As the score increase and time goes on, the probability of appearing obstacles and toxic food will be increased.  
+  The details of rewards and penalties will be introduced in the **Introduction to game rules** section.
+ ### Difficulty
+  **Crazy Snake** provides four difficulties for selection: *Beginner*, *Intermediate*, *Pro*, *Master*.  
+  *Beginner* is the easiest while *Master* is the most difficult.  
+  The parametes such as initial moving speed of the snake, the appearance proportion of toxic food to normal food, the appearance frequency of hard and fatal obstacles, will increase with increasing difficulties.  
+  Players are allowed to choose their favored difficulty before starting the game to maximize the gaming experience.
  ### Save and Load
-  You can save
- //What feather about this game, how this different to other snake?
- //Obtacle(Different type of obtacle)/Food🍉🍋
- //Obtacle and food may not occupy one location maybe consist of 3-5
- //Output input - >Can save game
- //Random event
- //Data structure for storing game-> 1D Array store for each the tail location/food/toxic food/obstacle
- //Program code seperate to multi-files
- //pause game
- //load game
- //start game
- //exit game(save game)
-// press key to open menu while gaming
-/// setting
- //set speed of snake
- //set the different
+  **Crazy Snake** allows player to save and load the game progress.
+ ### Rankings
+  The score of the players will be recorded on the in-game leaderboard.  
+  Name of player can be edited everytime so that multiple players can compare their scores.
  
  
-## :seedling: Introduce the game rules (by Huang xinghai)
+## :seedling: Introduction to Game rules (by Huang xinghai)
 1. These are some stuff will see while the game
 2. 1. Obstacle
 3. 2. 1. Hard obstacle
@@ -66,6 +71,7 @@ How to win the game
 4. Display clear console and display multi-line text every particular time, to make the animation smoother, it should be refreshed the console at least more than or close to 24 times per seconds
 5. Calculate the snake tails which will grow by eat something
 6. Calculate the time interval between the console display and the speed of the snake. 
+7. Data structure: the location of tail, foods, obstacles will be stored in 1D arrays.
 
 ## :man_in_tuxedo:Game flow (by Huang xinghai)
 1. Game title and options menu will be displayed on the main page
