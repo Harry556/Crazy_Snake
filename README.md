@@ -27,7 +27,6 @@
  //set speed of snake
  //set the different
  
-# My part was done la and i need to have work tonight, cant do with the remain part,
  
 ## :seedling: Introduce the game rules (by Huang xinghai)
 1. These are some stuff will see while the game
