@@ -48,10 +48,10 @@
 15. 4. 4. 1. Reduced score by 5
 
 #####   
-1. How to win the game
-2. If the player attain the score 300, then win the game
-3. It can be continue to the game to break the records if player won the game
-4. If the player collide with fatal obstacle, then lose the game
+How to win the game
+1. If the player attain the score 300, then win the game
+2. It can be continue to the game to break the records if player won the game
+3. If the player collide with fatal obstacle, then lose the game
 
 ## :detective:Technique involved (by Huang xinghai)
 1. #include <conio.h> for sleep(), time delay for making animation
