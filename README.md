@@ -1,7 +1,11 @@
 # :snake:Crazy_Snake
  Crazy_Snake game is text base game made by C++
  Contributed by 👨__*Huang xinghai*__ and 🧑__*Wong wai chun*__
-
+ Group No.: 157
+ Group members: 2 
+ Topic: Crazy Snake
+ Link: https://github.com/Harry556/Crazy_Snake/edit/main/README.md
+ 
 ## Game Description
  
 
