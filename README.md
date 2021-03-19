@@ -47,6 +47,7 @@
 14. 4. 3. Toxic food
 15. 4. 4. 1. Reduced score by 5
 
+#####   
 1. How to win the game
 2. If the player attain the score 300, then win the game
 3. It can be continue to the game to break the records if player won the game
