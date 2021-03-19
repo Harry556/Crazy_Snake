@@ -1,4 +1,4 @@
-# :snake:Crazy_Snake
+# :snake:Crazy_Snake (By Wong wai chun)
  Crazy_Snake game is text base game made by C++
  Contributed by 👨__*Huang xinghai*__ and 🧑__*Wong wai chun*__
  1. Group No.: 157
@@ -6,11 +6,11 @@
  3. Topic: Crazy Snake
  4. Link: https://github.com/Harry556/Crazy_Snake/edit/main/README.md
  
-## Game Description
+## Game Description (By Wong wai chun)
  These are some new feather differ to the tradition console snake game, so that why we name it by Crazy snake.
  You will see new stuff inside the game such as obstacle, toxic food. 
 
-## :dragon_face:Game features
+## :dragon_face:Game features (By Wong wai chun)
  //What feather about this game, how this different to other snake?
  //Obtacle(Different type of obtacle)/Food🍉🍋
  
@@ -24,7 +24,7 @@
  set speed of snake
  set the different
  
-## :seedling:Introduce the game rules
+## :seedling:Introduce the game rules (by Huang xinghai)
 1. These are some stuff will see while the game
 2. 1. Obstacle
 3. 2. 1. Hard obstacle
@@ -39,8 +39,7 @@
 12. 4. 3. Toxic food
 13. 4. 4. 1. Reduced score by 5
 
-## :detective:Technique involved
-//How to implement an animation in console
+## :detective:Technique involved (by Huang xinghai)
 1. #include <conio.h> for sleep(), time delay for making animation
 2. #include <windows.h> for detected user key press event
 3. #include <fstream> for read/write file stream
@@ -48,7 +47,7 @@
 5. Calculate the snake tails which will grow by eat something
 6. Calculate the time interval between the console display and the speed of snake. 
 
-## :man_in_tuxedo:Game flow
+## :man_in_tuxedo:Game flow (by Huang xinghai)
 1. Game title and option menu will be displayed in the main page
 2. Player can press key [1-5] for choosing the page getting in.
 3. 1. [1]Start a new game
