@@ -33,11 +33,11 @@
 6. 5. 4. 3. Reduced score by 5
 7. 6. 5. Soft obstacle
 8. 7. 6. 1. Random bound to one of the perpendicular direction
-9. 8. Food
-10. 9. 1. Normal food
-11. 10 2. 1. Score by 10
-12. 11 3. Toxic food
-13. 12 4. 1. Reduced score by 5
+9. 1. Food
+10. 2. 1. Normal food
+11. 3. 2. 1. Score by 10
+12. 4. 3. Toxic food
+13. 4. 4. 1. Reduced score by 5
 
 ## :detective:Technique involved
 //How to implement an animation in console
