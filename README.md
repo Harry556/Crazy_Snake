@@ -7,10 +7,10 @@
  4. Link: https://github.com/Harry556/Crazy_Snake/edit/main/README.md
  
 ## Game Description (By Wong wai chun)
- In this game, the player will act as a moving snake that is composed by digital characters. The snake is very hungry and it needs eating foods continuously to survive.
- Although the concept of this game has a long history, our game is called **Crazy Snake** for some reasons. 
- There are many new features that make this game differ from the traditional console snake game. For example, this game provides a large diversity of obstacles and foods to maximize the playfulness.
- The full features will be introduced in the next section: **Game Features**
+ In this game, the player will act as a moving snake that is composed by digital characters. The snake is very hungry and it needs eating foods continuously to survive.  
+ Although the concept of this game has a long history, our game is called **Crazy Snake** for some reasons.   
+ There are many new features that make this game differ from the traditional console snake game. For example, this game provides a large diversity of obstacles and foods to maximize the playfulness.  
+ The full features will be introduced in the next section.  
 
 ## :dragon_face:Game features (By Wong wai chun)
  
