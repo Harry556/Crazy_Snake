@@ -45,5 +45,16 @@
 //How to implement an animation in console
 
 ## :man_in_tuxedo:Game flow
-//Input then what happened?
+1. Game title and option menu will be displayed in the main page
+2. Player can press key [1-5] for choosing the page getting in.
+3. 1. [1]Start a new game
+4. 2. [2]Load the game
+5. 3. [3]How to play
+6. 4. [4]Scores records
+7. 5. [5]Exit the game 
+8. If player start a game, then all the console text will be clear,Then show the game page consist of the text and have the animation
+9. Player controls the movement of snake by press direction key.
+10. If player press key [p] while gaming, which will pause the game.
+11. If player press key [s] while gaming, which will save the game.
+12. If player press key [e] while gaming, which will back to the main page.
   
