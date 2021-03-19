@@ -29,12 +29,12 @@
  
 # My part was done la and i need to have work tonight, cant do with the remain part,
  
-## :seedling:Introduce the game rules (by Huang xinghai)
+## :seedling: Introduce the game rules (by Huang xinghai)
 1. These are some stuff will see while the game
 2. 1. Obstacle
 3. 2. 1. Hard obstacle
 4. 3. 2. 1. Random bound to one of the perpendicular direction
-5. 4. 3. 2. Deduced one unit length of snake
+5. 4. 3. 2. Deduced one unit length of the snake
 6. 5. 4. 3. Reduced score by 5
 7. 6. 5. Soft obstacle
 8. 7. 6. 1. Random bound to one of the perpendicular direction
@@ -46,36 +46,34 @@
 14. 4. 3. Toxic food
 15. 4. 4. 1. Reduced score by 5
 
-Snake eat different stuff will gain the score or change the states in the game.
-Player should avoid collide with the fatal obstacle event the hard obstacle and toxic food, it will 
-lose the game or deduce the score.
+The snake eats different stuff will gain the score or change the states in the game.
+The player should avoid colliding with the fatal obstacle event the hard obstacle and toxic food, it will lose the game or deduce the score.
 
 #####   
 How to win the game
 1. If the player attain the score 300 and 15 length tail, then win the game
-2. It can be continue to the game to break the records if player won the game
-3. If the player collide with fatal obstacle, then lose the game
+2. It can continue to the game to break the records if the player won the game
+3. If the player collides with a fatal obstacle, then lose the game
 
-## :detective:Technique involved (by Huang xinghai)
+## :detective: Technique involved (by Huang xinghai)
 1. #include <conio.h> for sleep(), time delay for making animation
 2. #include <windows.h> for detected user key press event
 3. #include <fstream> for read/write file stream
-4. Display clear console and display multi-line text every particular time, to make the animation smoother, it should be refreash the console at least more than or close to 24 times per seconds
+4. Display clear console and display multi-line text every particular time, to make the animation smoother, it should be refreshed the console at least more than or close to 24 times per seconds
 5. Calculate the snake tails which will grow by eat something
-6. Calculate the time interval between the console display and the speed of snake. 
+6. Calculate the time interval between the console display and the speed of the snake. 
 
 ## :man_in_tuxedo:Game flow (by Huang xinghai)
-1. Game title and option menu will be displayed in the main page
-2. Player can press key [1-6], it will go to the follow page.
+1. Game title and options menu will be displayed on the main page
+2. Player can press key [1-6], it will go to the following page.
 3. 1. [1]Start a new game
 4. 2. [2]Load the game
 5. 3. [3]How to play
 6. 4. [4]Scores records
-7. 5. [5]Change difficults
+7. 5. [5]Change difficulty
 8. 5. [6]Exit the game 
-9. If player start a game, then all the console text will be clear,Then show the game page consist of the text and have the animation
-10. Player controls the movement of snake by press direction key.
-11. If player press key [p] while gaming, which will pause the game.
-12. If player press key [s] while gaming, which will save the game.
-13. If player press key [e] while gaming, which will back to the main page.
-  
+9. If the player start a game, then all the console text will be clear, Then show the game page consist of the text and have the animation
+10. Player controls the movement of the snake by press the direction key.
+11. If the player press key [p] while gaming, which will pause the game.
+12. If the player press key [s] while gaming, which will save the game.
+13. If the player press key [e] while gaming, which will back to the main page.
