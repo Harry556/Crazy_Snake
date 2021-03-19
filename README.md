@@ -1,6 +1,6 @@
 # :snake:Crazy_Snake (By Wong wai chun)
  Crazy_Snake game is text base game made by C++
- Contributed by 👨__*Huang xinghai*__ and 🧑__*Wong wai chun*__
+ Contributed by 👨__*Huang xinghai 3035757145*__ and 🧑__*Wong wai chun 3035756919*__
  1. Group No.: 157
  2. Group members: 2 
  3. Topic: Crazy Snake
@@ -13,6 +13,12 @@
 ## :dragon_face:Game features (By Wong wai chun)
  //What feather about this game, how this different to other snake?
  //Obtacle(Different type of obtacle)/Food🍉🍋
+ //Obtacle and food may not occupy one location maybe consist of 3-5
+ //Output input - >Can save game
+ //Random event
+ //Data structure for storing game-> 1D Array store for each the tail location/food/toxic food/obstacle
+ //Program code seperate to multi-file 
+ 
  
  pause game
  load game
@@ -33,11 +39,18 @@
 6. 5. 4. 3. Reduced score by 5
 7. 6. 5. Soft obstacle
 8. 7. 6. 1. Random bound to one of the perpendicular direction
-9. 1. Food
-10. 2. 1. Normal food
-11. 3. 2. 1. Score by 10
-12. 4. 3. Toxic food
-13. 4. 4. 1. Reduced score by 5
+9. 8. 7. Fatal obstacle
+10. 9. 8. 1. Lose the game
+11. 1. Food
+12. 2. 1. Normal food
+13. 3. 2. 1. Score by 10
+14. 4. 3. Toxic food
+15. 4. 4. 1. Reduced score by 5
+
+1. How to win the game
+2. If the player attain the score 300, then win the game
+3. It can be continue to the game to break the records if player won the game
+4. If the player collide with fatal obstacle, then lose the game
 
 ## :detective:Technique involved (by Huang xinghai)
 1. #include <conio.h> for sleep(), time delay for making animation
@@ -49,15 +62,16 @@
 
 ## :man_in_tuxedo:Game flow (by Huang xinghai)
 1. Game title and option menu will be displayed in the main page
-2. Player can press key [1-5] for choosing the page getting in.
+2. Player can press key [1-6], it will go to the follow page.
 3. 1. [1]Start a new game
 4. 2. [2]Load the game
 5. 3. [3]How to play
 6. 4. [4]Scores records
-7. 5. [5]Exit the game 
-8. If player start a game, then all the console text will be clear,Then show the game page consist of the text and have the animation
-9. Player controls the movement of snake by press direction key.
-10. If player press key [p] while gaming, which will pause the game.
-11. If player press key [s] while gaming, which will save the game.
-12. If player press key [e] while gaming, which will back to the main page.
+7. 5. [5]Change difficults
+8. 5. [6]Exit the game 
+9. If player start a game, then all the console text will be clear,Then show the game page consist of the text and have the animation
+10. Player controls the movement of snake by press direction key.
+11. If player press key [p] while gaming, which will pause the game.
+12. If player press key [s] while gaming, which will save the game.
+13. If player press key [e] while gaming, which will back to the main page.
   
