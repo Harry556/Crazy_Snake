@@ -7,7 +7,8 @@
  4. Link: https://github.com/Harry556/Crazy_Snake/edit/main/README.md
  
 ## Game Description
- 
+ These are some new feather differ to the tradition console snake game, so that why we name it by Crazy snake.
+ You will see new stuff inside the game such as obstacle, toxic food. 
 
 ## :dragon_face:Game features
  //What feather about this game, how this different to other snake?
@@ -24,25 +25,28 @@
  set the different
  
 ## :seedling:Introduce the game rules
- //How to play:
- //How to win:
- //How to score
+1. These are some stuff will see while the game
+2. 1. Obstacle
+3. 2. 1. Hard obstacle
+4. 3. 2. 1. Random bound to one of the perpendicular direction
+5. 4. 3. 2. Deduced one unit length of snake
+6. 5. 4. 3. Reduced score by 5
+7. 6. 5. Soft obstacle
+8. 7. 6. 1. Random bound to one of the perpendicular direction
+9. 8. Food
+10. 9. 1. Normal food
+11. 10 2. 1. Score by 10
+12. 11 3. Toxic food
+13. 12 4. 1. Reduced score by 5
 
-## :man_factory_worker:Project Requirements
-#include <conio.h> //For sleep() time delay for making animation
-#include <windows.h> //Detected user key press event
-//Coding elements
-//From proj pdf
-  Generation of random game sets or events
-  Data structures for storing game status
-  Dynamic memory management
-  File input/output (e.g., for loading/saving game status)
-  Program codes in multiple files
-  Proper indentation and naming styles
-  In-code documentation
-  
 ## :detective:Technique involved
 //How to implement an animation in console
+1. #include <conio.h> for sleep(), time delay for making animation
+2. #include <windows.h> for detected user key press event
+3. #include <fstream> for read/write file stream
+4. Display clear console and display multi-line text every particular time, to make the animation smoother, it should be refreash the console at least more than or close to 24 times per seconds
+5. Calculate the snake tails which will grow by eat something
+6. Calculate the time interval between the console display and the speed of snake. 
 
 ## :man_in_tuxedo:Game flow
 1. Game title and option menu will be displayed in the main page
