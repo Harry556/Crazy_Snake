@@ -7,10 +7,15 @@
  4. Link: https://github.com/Harry556/Crazy_Snake/edit/main/README.md
  
 ## Game Description (By Wong wai chun)
- These are some new feather differ to the tradition console snake game, so that why we name it by Crazy snake.
- You will see new stuff inside the game such as obstacle, toxic food. 
+ In this game, the player will act as a moving snake that is composed by digital characters. The snake is very hungry and it needs eating foods continuously to survive.
+ Although the concept of this game has a long history, our game is called **Crazy Snake** for some reasons. 
+ There are many new features that make this game differ from the traditional console snake game. For example, this game provides a large diversity of obstacles and foods to maximize the playfulness.
+ The full features will be introduced in the next section: **Game Features**
 
 ## :dragon_face:Game features (By Wong wai chun)
+ 
+ ### Save and Load
+  You can save
  //What feather about this game, how this different to other snake?
  //Obtacle(Different type of obtacle)/Food🍉🍋
  //Obtacle and food may not occupy one location maybe consist of 3-5
