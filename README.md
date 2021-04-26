@@ -57,7 +57,8 @@
 16. 4. 4. 2. Decrease tails length by 1
 
 The snake eats different stuff will gain the score or change the states in the game.
-The player should avoid colliding with the fatal obstacle event the hard obstacle and toxic food, it will lose the game or deduce the score.
+The player should avoid colliding with the hard obstacle and toxic food, it will lose the game or deduce the score.  
+The player should also avoid colliding with the tails of snake, otherwise the length of tails will be decreased.
 
 #####   
 How to win the game
@@ -67,7 +68,7 @@ How to win the game
 
 ####
 How to lose the game
-1. If the player attain score of 0, or the tail disappeared, then lose the game.
+1. If the player attain score of 0, or the tail disappeared (length = 0), then lose the game.
 
 ## Coding Requirements Achieved
 
