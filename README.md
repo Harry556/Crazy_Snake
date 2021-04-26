@@ -88,11 +88,11 @@ The default difficulty is "Beginner". Once the difficulty is changed, the parame
 ## :detective: Technique involved (by Huang xinghai)
 1. #include <conio.h> for sleep(), time delay for making animation.
 2. #include <windows.h> for detected user key press event.
-3. #include <fstream> for save/load the previous game status to/from a text file.
-4. #include <vector> for storing foods status and tails status by vectors.
-5. #include <sstream> for storing and displaying messages.
-6. #include <string> for the attributes of object type std::string.
-7. #include <stdlib.h> for basic functions usage.
+3. #include \<fstream\> for save/load the previous game status to/from a text file.
+4. #include \<vector\> for storing foods status and tails status by vectors.
+5. #include \<sstream\> for storing and displaying messages.
+6. #include \<string\> for the attributes of object type std::string.
+7. #include \<stdlib.h\> for basic functions usage.
 8. Display clear console and display multi-line text every particular time, to make the animation smoother, it should be refreshed the console at least more than or close to 24 times per seconds
 9. Calculate the snake tails which will grow by eat something.
 10. Calculate the time interval between the console display and the speed of the snake. 
