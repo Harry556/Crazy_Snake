@@ -104,6 +104,8 @@ The default difficulty is "Beginner". Once the difficulty is changed, the parame
 9. Calculate the snake tails which will grow by eat something.
 10. Calculate the time interval between the console display and the speed of the snake. 
 11. Data structure: the location of tail, foods, obstacles will be stored in SnakeGame class.
+12. The snake can only change the face direction to left, right, front.
+13. To keep the diversity of food appear in game(If the snake only eat normal, then it may have no more normal remain in game), it have the maximum count of each food for in different level.
 
 ## :man_in_tuxedo:Game flow (by Huang xinghai)
 1. Game title and options menu will be displayed on the main page
