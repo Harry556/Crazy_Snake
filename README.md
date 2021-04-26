@@ -15,14 +15,13 @@
 ## :dragon_face:Game features (By Wong wai chun)
  
  ### Gameplay
-  Using the arrow keys (:arrow_up: :arrow_down: :arrow_left: :arrow_right:) on the keyboard to control the movement of the snake.
+  Using the keys (W, A, S, D) on the keyboard to control the movement of the snake.
  ### Foods and Obstacles
   The following types of foods and obstacles will be appeared in **Crazy Snake**:  
   * Normal food
   * Toxic food
   * Hard obstacle
   * Soft obstacle
-  * Fatal obstacle  
   
   As the score increase and time goes on, the probability of appearing obstacles and toxic food will be increased.  
   The details of rewards and penalties will be introduced in the **Introduction to game rules** section.
@@ -33,9 +32,6 @@
   Players are allowed to choose their favored difficulty before starting the game to maximize the gaming experience.
  ### Save and Load
   **Crazy Snake** allows player to save and load the game progress.
- ### Rankings
-  The score of the players will be recorded on the in-game leaderboard.  
-  Name of player can be edited everytime so that multiple players can compare their scores.
  
  
 ## :seedling: Introduction to Game rules (by Huang xinghai)
@@ -45,22 +41,23 @@
 4. 3. 2. 1. Random bound to one of the perpendicular direction
 5. 4. 3. 2. Deduced one unit length of the snake
 6. 5. 4. 3. Reduced score by 5
-7. 6. 5. Soft obstacle
-8. 7. 6. 1. Random bound to one of the perpendicular direction
-9. 8. 7. Fatal obstacle
-10. 9. 8. 1. Lose the game
-11. 1. Food
-12. 2. 1. Normal food
-13. 3. 2. 1. Score by 10
+7. 5. 4. 4. Decrease tails length by 1
+8. 6. 5. Soft obstacle
+9. 7. 6. 1. Random bound to one of the perpendicular direction
+10. 1. Food
+11. 2. 1. Normal food
+12. 3. 2. 1. Score by 10
+13. 3. 2. 2. Increase tails length by 1
 14. 4. 3. Toxic food
 15. 4. 4. 1. Reduced score by 5
+16. 4. 4. 2. Decrease tails length by 1
 
 The snake eats different stuff will gain the score or change the states in the game.
 The player should avoid colliding with the fatal obstacle event the hard obstacle and toxic food, it will lose the game or deduce the score.
 
 #####   
 How to win the game
-1. If the player attain the score 300 and 15 length tail, then win the game
+1. If the player attain the particular scores and length of tail, then win the game (each difficulty will have different winning goals, players can check on the "Game Rules" page within the game.
 2. It can continue to the game to break the records if the player won the game
 3. If the player collides with a fatal obstacle, then lose the game
 
@@ -79,11 +76,10 @@ How to win the game
 3. 1. [1]Start a new game
 4. 2. [2]Load the game
 5. 3. [3]How to play
-6. 4. [4]Scores records
-7. 5. [5]Change difficulty
-8. 5. [6]Exit the game 
-9. If the player start a game, then all the console text will be clear, Then show the game page consist of the text and have the animation
-10. Player controls the movement of the snake by press the direction key.
-11. If the player press key [p] while gaming, which will pause the game.
-12. If the player press key [s] while gaming, which will save the game.
-13. If the player press key [e] while gaming, which will back to the main page.
+6. 4. [4]Change difficulty
+7. 5. [5]Exit the game 
+8. If the player start a game, then all the console text will be clear, Then show the game page consist of the text and have the animation
+9. Player controls the movement of the snake by press the direction key.
+10. If the player press key [p] while gaming, which will pause the game.
+11. If the player press key [x] while gaming, which will save the game and back to the menu page.
+12. If the player press key [e] while gaming, which will back to the main page.
