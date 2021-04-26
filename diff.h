@@ -1,10 +1,10 @@
 typedef struct Diff {
 
-    int Beginner[10] = { 30, 25, 15, 1, 1, 1 ,15, 30, 15, 5 };
-    int Intermediate[10] = { 25, 20, 7, 2, 2, 2,12, 50, 15, 5 };
-    int Pro[10] = { 20, 15, 8, 2, 2, 3, 70, 15,25, 10 };
-    int Master[10] = { 20, 15, 10, 3, 3, 4, 20,10, 30, 10 };
-    int test[10] = { 20, 20, 3, 3, 3, 4, 1000,20, 1000, 18 };
+    int Beginner[10] = { 30, 25, 15, 1, 1, 1 ,15, 50, 15, 5 };
+    int Intermediate[10] = { 25, 20, 7, 2, 2, 2,12, 100, 15, 5 };
+    int Pro[10] = { 20, 15, 8, 2, 2, 3, 15, 150,25, 10 };
+    int Master[10] = { 20, 15, 10, 3, 3, 4, 20,200, 30, 10 };
+    int test[10] = { 20, 20, 3, 3, 3, 4,20, 1000, 1000, 18 };
     // Beginning to end:
     // Width of boundary, height of boundary;
     // Max. number of normal food, toxic food, hard obstacle, soft obstacle;
@@ -26,6 +26,7 @@ int* randomArrayIndex(int length);
 //Beginner.max_toxic = 1;
 //Beginner.max_hard = 1;
 //Beginner.max_soft = 1;
+//Max food in game
 //Beginner.win_score = 30;
 //Beginner.win_tails = 10;
 //Beginner.initial_tails = 3;
@@ -36,6 +37,7 @@ int* randomArrayIndex(int length);
 //Intermediate.max_toxic = 2;
 //Intermediate.max_hard = 2;
 //Intermediate.max_soft = 2;
+//Max food in game
 //Intermediate.win_score = 50;
 //Intermediate.win_tails = 15;
 //Intermediate.initial_tails = 5;
