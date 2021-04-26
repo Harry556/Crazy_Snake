@@ -15,7 +15,7 @@
 ## :dragon_face:Game features (By Wong wai chun)
  
  ### Gameplay
-  Using the keys (W, A, S, D) on the keyboard to control the movement of the snake.
+  Using the keys (W, A, S, D) on the keyboard to control the movement of the snake.  
  ### Foods and Obstacles
   The following types of foods and obstacles will be appeared in **Crazy Snake**:  
   * Normal food
@@ -34,6 +34,9 @@
  ### Save and Load
   **Crazy Snake** allows player to save and load the game progress.
  
+ ### Animation
+ Each time the snake strikes on obstacles, eats foods, or strike on itself (tails), there will be a little animation effect appear in the console window.  
+ Also, there will be animation indicating the "Game Win!!" or "Game Loser" after the player won of lost.
  
 ## :seedling: Introduction to Game rules (by Huang xinghai)
 1. These are some stuff will see while the game
@@ -62,7 +65,11 @@ How to win the game
 2. It can continue to the game to break the records if the player won the game
 3. If the player collides with a fatal obstacle, then lose the game
 
-## :Coding Requirements Achieved
+####
+How to lose the game
+1. If the player attain score of 0, or the tail disappeared, then lose the game.
+
+## Coding Requirements Achieved
 
 ### 1. Generation of random game sets or events
 
@@ -78,7 +85,7 @@ Each food and element of tail are under specific c++ struct. All the foods and t
 
 ### 4. File input/output
 
-The parameters that depending the game status can be stored in a .txt file (gamedata.txt) by pressing [x] button during the game. The player can load the game immediately or after another program execution.
+The parameters that depending the game status can be stored in a .txt file (gamedata.txt) by pressing [x] button during the game. The program will load the game status immediately if the player do not exit the game. The program can also load the game status from the previous execution, which the player exited the game after saving.
 
 ### 5. Program codes in multiple files
 
