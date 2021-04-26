@@ -25,6 +25,7 @@
   
   As the score increase and time goes on, the probability of appearing obstacles and toxic food will be increased.  
   The details of rewards and penalties will be introduced in the **Introduction to game rules** section.
+  
  ### Difficulty
   **Crazy Snake** provides four difficulties for selection: *Beginner*, *Intermediate*, *Pro*, *Master*.  
   *Beginner* is the easiest while *Master* is the most difficult.  
@@ -60,6 +61,29 @@ How to win the game
 1. If the player attain the particular scores and length of tail, then win the game (each difficulty will have different winning goals, players can check on the "Game Rules" page within the game.
 2. It can continue to the game to break the records if the player won the game
 3. If the player collides with a fatal obstacle, then lose the game
+
+## :Coding Requirements Achieved
+
+### 1. Generation of random game sets or events
+
+The maximum number of foods and obstacles, which depends on the selected difficulty, are initialized before the game start.
+The foods and obstacles are then randomly generated within the game boundaries after game started.
+
+### 2. Data structures for storing game status
+
+Each food and element of tail are under specific c++ struct. All the foods and tails structs are stored within vectors for data management.
+
+
+### 3. Dynamic memory management
+
+### 4. File input/output
+
+The parameters that depending the game status can be stored in a .txt file (gamedata.txt) by pressing [x] button during the game. The player can load the game immediately or after another program execution.
+
+### 5. Program codes in multiple files
+
+The "diff.h" header file including the initial game setting parameters for different difficulties.
+The default difficulty is "Beginner". Once the difficulty is changed, the parameters from "diff.h" will be accessed by "main.cpp", hence changing difficulties and game experience.
 
 ## :detective: Technique involved (by Huang xinghai)
 1. #include <conio.h> for sleep(), time delay for making animation.
