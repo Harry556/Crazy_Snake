@@ -9,7 +9,7 @@
 ## Game Description (By Wong wai chun)
  In this game, the player will act as a moving snake that is composed by digital characters. The snake is very hungry and it needs eating foods continuously to survive.  
  Although the concept of this game has a long history, our game is called **Crazy Snake** for some reasons.   
- There are many new features that make this game differ from the traditional console snake game. For example, this game provides a large diversity of obstacles and foods to maximize the playfulness.  
+ There are many new features that make this game differ from the traditional console snake game. For example, this game provides a large diversity of obstacles and foods to maximize the playfulness. 
  The full features will be introduced in the next section.  
 
 ## :dragon_face:Game features (By Wong wai chun)
@@ -81,7 +81,7 @@ The foods and obstacles are then randomly generated within the game boundaries a
 Each food and element of tail are under specific c++ struct. All the foods and tails structs are stored within vectors for data management.
 
 ### 3. Dynamic memory management
-The lengith of snake and the number of food is dynmaic change during the game. It use the vector implement it.
+The lengith of snake and the number of food is dynmaic change during the game, so the input/output file size is depends on the game status. 
 
 ### 4. File input/output
 
@@ -94,7 +94,7 @@ The default difficulty is "Beginner". Once the difficulty is changed, the parame
 
 ## :detective: Technique involved (by Huang xinghai)
 1. #include <conio.h> for sleep(), time delay for making animation.
-2. #include <windows.h> for detected user key press event.
+2. #include <windows.h> for detected user key press event, this "windows.h" only find in window system, so it only can run in window.
 3. #include \<fstream\> for save/load the previous game status to/from a text file.
 4. #include \<vector\> for storing foods status and tails status by vectors.
 5. #include \<sstream\> for storing and displaying messages.
@@ -107,7 +107,7 @@ The default difficulty is "Beginner". Once the difficulty is changed, the parame
 
 ## :man_in_tuxedo:Game flow (by Huang xinghai)
 1. Game title and options menu will be displayed on the main page
-2. Player can press key [1-5], it will go to the following page.
+2. Player can press key [1-5] to select line and press space to enter, it will go to the following page.
 3. 1. [1]Start a new game
 4. 2. [2]Load the game
 5. 3. [3]How to play
