@@ -81,7 +81,7 @@ The foods and obstacles are then randomly generated within the game boundaries a
 Each food and element of tail are under specific c++ struct. All the foods and tails structs are stored within vectors for data management.
 
 ### 3. Dynamic memory management
-The lengith of snake and the number of food is dynmaic change during the game, so the input/output file size is depends on the game status. 
+The width and height of game area is depend on different level of diffcult. The lengith of snake and the number of food is dynmaic change during the game, so the input/output file size is depends on the game status. 
 
 ### 4. File input/output
 
