@@ -63,8 +63,7 @@ The player should also avoid colliding with the tails of snake, otherwise the le
 #####   
 How to win the game
 1. If the player attain the particular scores and length of tail, then win the game (each difficulty will have different winning goals, players can check on the "Game Rules" page within the game.
-2. It can continue to the game to break the records if the player won the game
-3. If the player collides with a fatal obstacle, then lose the game
+2. If the player have negative score or no tail remain, then lose the game.
 
 ####
 How to lose the game
@@ -81,8 +80,8 @@ The foods and obstacles are then randomly generated within the game boundaries a
 
 Each food and element of tail are under specific c++ struct. All the foods and tails structs are stored within vectors for data management.
 
-
 ### 3. Dynamic memory management
+The lengith of snake and the number of food is dynmaic change during the game. It use the vector implement it.
 
 ### 4. File input/output
 
@@ -104,11 +103,11 @@ The default difficulty is "Beginner". Once the difficulty is changed, the parame
 8. Display clear console and display multi-line text every particular time, to make the animation smoother, it should be refreshed the console at least more than or close to 24 times per seconds
 9. Calculate the snake tails which will grow by eat something.
 10. Calculate the time interval between the console display and the speed of the snake. 
-11. Data structure: the location of tail, foods, obstacles will be stored in 1D arrays.
+11. Data structure: the location of tail, foods, obstacles will be stored in SnakeGame class.
 
 ## :man_in_tuxedo:Game flow (by Huang xinghai)
 1. Game title and options menu will be displayed on the main page
-2. Player can press key [1-6], it will go to the following page.
+2. Player can press key [1-5], it will go to the following page.
 3. 1. [1]Start a new game
 4. 2. [2]Load the game
 5. 3. [3]How to play
